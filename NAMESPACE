@@ -1,0 +1,6 @@
+import(igraph)
+import(poweRlaw)
+import(Rmpfr)
+  importFrom("stats", "rbinom", "rmultinom", "var")
+  importFrom("utils", "combn")
+exportPattern("^[[:alpha:]]+")
