@@ -19,7 +19,7 @@ devtools::install_github('taichi43/SNscan')
 
 ##Goal of SNscan
 
-SNscan is constructed based on the approaches developed by the two referece papers. These papers develop the community detection methods in social networks based on the scan statistics which are the popular approaches in detecting spatial clusters. Generally speaking, the methods are used to detect both attribute and structure clusters in social networks.
+SNscan is constructed based on the approaches developed by the following two refereced papers (Wang and Phoa, 2016; Wang et al., 2015). These papers develop the community detection methods in social networks based on the scan statistics which are the popular approaches in detecting spatial clusters. Generally speaking, the methods are used to systematically detect both attribute and structure clusters in social networks.
 
 ##Getting Started
 
