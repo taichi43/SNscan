@@ -10,7 +10,7 @@ below. Some data sets are presented to be examples in this package as well.
 
 To install the stable version from Cran, run this command:
 ```
-install.packages("SNscam")
+install.packages("SNscan")
 ```
 For up-to-date version, please install from github. Windows user will need to install [RTools](https://cran.r-project.org/bin/windows/Rtools/) first.
 ```
