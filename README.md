@@ -9,13 +9,13 @@ below. Some data sets are presented to be examples in this package as well.
 ##Installation
 
 To install the stable version from Cran, run this command:
-'''
+```
 install.packages("SNscam")
-'''
+```
 For up-to-date version, please install from github. Windows user will need to install [RTools](https://cran.r-project.org/bin/windows/Rtools/) first.
-'''
+```
 devtools::install_github('taichi43/SNscan')
-'''
+```
 
 ##Goal of SNscan
 
@@ -28,7 +28,7 @@ The following scripts show how to use SNscan to detect communities by the scan s
 The data for demonstration are the karate network which is a social network of friendships between 34 members of a karate club at a US university in the 1970 (Zachary, 1997).
 
 There would be some warnings in the following functions due to the updated version of *igraph*. Don't worry about that since there is no influence on the testing results.
-'''
+```
 data(karate)
 
 ks=network.scan(g=karate,radius=3,attribute=NULL,
@@ -36,7 +36,7 @@ ks=network.scan(g=karate,radius=3,attribute=NULL,
 mc.ks=network.mc.scan(n=9,g=karate,radius=3,attribute=NULL,
 	model="pois.stat",pattern="structure")	
 pv=mcpv.function(obs.stat=ks[,3],ms.stat=mc.ks[,3],direction=">=")
-'''
+```
 
 ##Reference
 - Zachary,W.W. (1977). An information flow model for conflict and fission in small groups. *Journal
