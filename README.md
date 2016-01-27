@@ -1,4 +1,4 @@
-# SNscan Test-Test
+# SNscan Taiwan NO.1
 Scan statistics is applied in social network data and is used to test the cluster characteristics among a social network.
 
 ##Introduction
