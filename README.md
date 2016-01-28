@@ -1,4 +1,4 @@
-# SNscan Taiwan NO.1
+# SNscan Taiwan NO.1 Happy New Year!!!
 Scan statistics is applied in social network data and is used to test the cluster characteristics among a social network.
 
 ##Introduction
